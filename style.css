@@ -1,0 +1,62 @@
+*{
+    margin:0;
+    padding: 0;
+    text-align: center;
+    background-color: #F6DCAC;
+}
+.header{
+    font-size: 8vh;
+    text-align: center;
+    color: aliceblue;
+    background-color: #102C57;
+    padding: 1.5vh;
+}
+.img-div{
+    margin-top: 8vh;
+    margin-bottom: 8vh;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    gap: 10vmin;
+}
+img{
+    width: 25vmin;
+    height: 25vmin;
+    border-radius: 50%;
+    border: 4px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img:hover{
+    border-color: black;
+} 
+.user-score,.opponent-score{
+    font-size: 10vmin;
+    font-weight: 500;
+}
+.user-name,.opponent-name{
+    font-size: 5vmin;
+    font-weight: 500;
+}
+.score-div{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    gap: 10vmin;
+}
+.msg{
+    color: #fff;
+    font-size: 2rem;
+    /* display: inline; */
+    padding: 8vmin;
+    border-radius: 4px;
+}
+.display-msg{
+    display: inline-block;
+    padding: 2vmin;
+    background-color:#028391;
+    border-radius: 8px;
+}
